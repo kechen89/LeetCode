@@ -7,11 +7,11 @@ using namespace std;
 int main()
 {
     string J, S;
-    Solution sol;
+    Solution s;
     
     cout << "Input Jewels string " << endl;
     cin >> J;
     cout << "Input Stones string " << endl;
     cin >> S;
-    cout << sol.numJewelsInStones(J, S) << endl;
+    cout << s.numJewelsInStones(J, S) << endl;
 }

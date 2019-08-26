@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
     string str;
-    Solution sol;
+    Solution s;
     
     cout << "Input a string " << endl;
     cin >> str;
-    cout << sol.toLowerCase(str) << endl;
+    cout << s.toLowerCase(str) << endl;
 }
